@@ -101,7 +101,7 @@ func main() {
 
 	//CreateUser(ctx, c, "Oleg Gorlopanov", "oleg.gorlopanov@example.com")
 	//GetUser(ctx, c, "67e44047-6eef-45fd-845a-ec53abc89b55")
-	_, _ = UpdateUser(ctx, c, "5339d08c-4825-4b9e-ae71-ac2f194b8a8b", "john.dicks@example.com", "Maxim Karasik")
+	_, _ = UpdateUser(ctx, c, "5339d08c-4825-4b9e-ae71-ac2f194b8a8b", "maxon4ik@example.com", "Maxim Karasik")
 	//GetUser(ctx, c, "1dbf99bf-f560-45b9-895b-e5c945ad6b46")
 	//DeleteUser(ctx, c, "67e44047-6eef-45fd-845a-ec53abc89b55")
 	//GetUser(ctx, c, "67e44047-6eef-45fd-845a-ec53abc89b55")
