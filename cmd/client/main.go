@@ -106,5 +106,4 @@ func main() {
 	//DeleteUser(ctx, c, "67e44047-6eef-45fd-845a-ec53abc89b55")
 	//GetUser(ctx, c, "67e44047-6eef-45fd-845a-ec53abc89b55")
 	//DeleteUser(ctx, c, "1dbf99bf-f560-45b9-895b-e5c945ad6b46")
-
 }
