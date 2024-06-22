@@ -11,7 +11,7 @@ service UserService {
 }
 
 message CreateUserRequest {
-  string id = 1;
+  string name = 1;
   string email = 2;
 }
 

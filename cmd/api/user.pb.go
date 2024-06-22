@@ -25,7 +25,7 @@ type CreateUserRequest struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	Id    string `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
+	Name    string `protobuf:"bytes,1,opt,name=id,proto3" json:"id,omitempty"`
 	Email string `protobuf:"bytes,2,opt,name=email,proto3" json:"email,omitempty"`
 }
 
@@ -62,9 +62,7 @@ func (*CreateUserRequest) Descriptor() ([]byte, []int) {
 }
 
 func (x *CreateUserRequest) GetId() string {
-	if x != nil {
-		return x.Id
-	}
+	if x != nil { return x.Name }
 	return ""
 }
 
