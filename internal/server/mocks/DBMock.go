@@ -23,6 +23,11 @@ type MockDB struct {
 	recorder *MockDBMockRecorder
 }
 
+func (m *MockDB) QueryRowContext(ctx context.Context, query string, args ...interface{}) *sql.Row {
+	//TODO implement me
+	panic("implement me")
+}
+
 // MockDBMockRecorder is the mock recorder for MockDB.
 type MockDBMockRecorder struct {
 	mock *MockDB
